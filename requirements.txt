@@ -1,0 +1,16 @@
+# Kalshi Practice Bot v1 - Dependencies
+
+# HTTP client for API calls
+requests>=2.31.0
+
+# RSA-PSS signing for Kalshi authentication
+cryptography>=41.0.0
+
+# Load environment variables from .env file
+python-dotenv>=1.0.0
+
+# Testing framework
+pytest>=7.4.0
+
+# Mock HTTP responses in tests
+responses>=0.23.0
